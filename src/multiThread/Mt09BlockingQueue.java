@@ -1,4 +1,9 @@
 package multiThread;
+/*
+ArrayBlockingQueue aslinda bir Collection'dır. Queue'nun bir kapasitesi bulunmaktadir ve bu kapasite bir kere
+belirlendi mi runtime'da değiştirilemez.  Bu Queue'nun en büyük özelliği, queue doluyken yeni bir veri eklemeyi
+ve queue bos iken veri cikarmayi engellemesidir. Queue'nun calismasi LIFO mantığına goredir.
+*/
 
 import java.util.concurrent.ArrayBlockingQueue;
 

@@ -1,4 +1,11 @@
 eclipse.preferences.version=1
 encoding//src/multiThread/MT01SingleThreadMultiThread.java=UTF-8
 encoding//src/multiThread/MT02MetodLevelSyncronization.java=UTF-8
+encoding//src/multiThread/MT05Volatile.java=UTF-8
+encoding//src/multiThread/MT06WaitNotify.java=UTF-8
+encoding//src/multiThread/MT07ThreadPool.java=UTF-8
+encoding//src/multiThread/MT08CountDownLatch.java=UTF-8
+encoding//src/multiThread/MT10ReentrantLock.java=UTF-8
+encoding//src/multiThread/MT11DeadLockOrnek.java=UTF-8
 encoding//src/multiThread/MT12DeadLockCozum.java=UTF-8
+encoding//src/multiThread/Mt09BlockingQueue.java=UTF-8

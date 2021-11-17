@@ -1,5 +1,15 @@
 package multiThread;
 
+/*  ================================================== REENTRANT LOCK =================================================
+ReentrantLock sinifi Lock interface'ini implement eder ve paylaşımlı kaynaklara erişim sırasinda senkronizasyon
+saglar. Paylaşımlı olan bir kaynağı, çalışmakta olan bir thread için kilitlerken diğer thread'leri bloklar.Yaptığı
+iş bakımından Synronized'a benzesede çok daha esnek ve kullanışlı bir metot sunar.
+
+İçreisinde bir kaynağı bir thread'in kaç kere kilitlediğini tutan sayac bulunmaktadır. Ayrıca, istenilirse
+en uzun süredir bekleyen Thread'e oncelik verilmesini sağlayan (fairness) bir modu bulunmaktadir.
+
+*/
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 

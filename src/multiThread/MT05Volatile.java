@@ -1,5 +1,15 @@
 package multiThread;
 
+//============================================= VOLATILE ===============================================================
+//Volatile keyword'u, Bir degiskenin farklı threadler tarafından kullanılırken degerinin degismesini saglamak icin
+//kullanılmaktadir. Aynı zamanda bir class'ı thread-safe yapmak icin de kullanılır. Yani diger bir degisle, bir class
+//yada nesneyi farklı thread'lerin es zamanlı olarak problemiz kullanımına olanak saglar.
+
+//Volatile keywordu sadece degiskenler ile (primitif veya non-primitif) kullanılabilir. Nesne ve Class'lara konulmaz
+
+//Volatile keywordu kullanılan bir degiskenin degeri cache bellege saklanmaz. Her defasında ilgili class'ın bellegi
+//(MAIN MEMORY) den okunur. Dolayısıyla farklı thread'ler degiskeni guncellese de her defasında en guncel deger okunmus olur.
+//Bu özellikleri sayesinde Syncronization yönteminin daha iyi bir alternatifi olarak düşünülebilir.
 public class MT05Volatile {
 
 	

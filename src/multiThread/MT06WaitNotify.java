@@ -1,5 +1,16 @@
 package multiThread;
 
+/* ============================ WAIT, NOTIFY ==========================
+Object.wait() metodu bir thread'i suresiz olarak askıya alir. Diğer bir ifade ile
+bu thread'in kilitlemiş (locked) olduğu bir kaynağı salıvermesini ve askıya geçmesini sağlar.
+Thread bu durumdan bir başka thread Onu bilgilendirirse (notify) çıkabilir.
+
+Object.notify() metodu ise aynı nesne üzerinde askıya alınan bir thread'in uyanmasini saglar.
+Object.notifyAll() metodu bir nesne üzerinde askıya alınan tum thread'lerin uyandirilmasini saglar.
+
+Bu metotlar, thread'ler arasi iletişim metodu olarak kullanılır.
+
+*/
 public class MT06WaitNotify {
 	
 	public static double bakiye = 0.0;
